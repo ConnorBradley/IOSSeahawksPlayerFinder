@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9CB2A6C1DDDF9AA00B65FE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB2A6B1DDDF9AA00B65FE6 /* AppDelegate.swift */; };
-		E9CB2A6E1DDDF9AA00B65FE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB2A6D1DDDF9AA00B65FE6 /* ViewController.swift */; };
+		B4E01AE71E5A4AF700C06565 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E01AE61E5A4AF700C06565 /* AppDelegate.swift */; };
+		E9014DE91DDE14F300ACE601 /* PlayerDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9014DE81DDE14F300ACE601 /* PlayerDetailsVC.swift */; };
+		E9014DEB1DDE15ED00ACE601 /* PlayerSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9014DEA1DDE15ED00ACE601 /* PlayerSearchVC.swift */; };
+		E9014DEF1DDE314700ACE601 /* Upvote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9014DEE1DDE314700ACE601 /* Upvote.swift */; };
+		E9347E0D1DF46895007E5C01 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9347E0C1DF46895007E5C01 /* Player.swift */; };
+		E9347E1D1DF4956F007E5C01 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9347E1C1DF4956F007E5C01 /* MapKit.framework */; };
+		E9347E1F1DF497E0007E5C01 /* NextGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9347E1E1DF497E0007E5C01 /* NextGameViewController.swift */; };
+		E9347E211DF499C7007E5C01 /* NextGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9347E201DF499C7007E5C01 /* NextGame.swift */; };
 		E9CB2A711DDDF9AA00B65FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CB2A6F1DDDF9AA00B65FE6 /* Main.storyboard */; };
 		E9CB2A731DDDF9AA00B65FE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9CB2A721DDDF9AA00B65FE6 /* Assets.xcassets */; };
 		E9CB2A761DDDF9AA00B65FE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9CB2A741DDDF9AA00B65FE6 /* LaunchScreen.storyboard */; };
 		E9CB2A811DDDF9AA00B65FE6 /* SeahawksPlayerFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9CB2A801DDDF9AA00B65FE6 /* SeahawksPlayerFinderUITests.swift */; };
+		E9DFAEAB1DE7311300576FAE /* Vote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DFAEAA1DE7311300576FAE /* Vote.swift */; };
+		E9F6233B1DF0665800A68EC8 /* Downvote.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F6233A1DF0665800A68EC8 /* Downvote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +34,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B4E01AE61E5A4AF700C06565 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9014DE81DDE14F300ACE601 /* PlayerDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailsVC.swift; sourceTree = "<group>"; };
+		E9014DEA1DDE15ED00ACE601 /* PlayerSearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerSearchVC.swift; sourceTree = "<group>"; };
+		E9014DEE1DDE314700ACE601 /* Upvote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upvote.swift; sourceTree = "<group>"; };
+		E9347E0C1DF46895007E5C01 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E9347E1C1DF4956F007E5C01 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E9347E1E1DF497E0007E5C01 /* NextGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextGameViewController.swift; sourceTree = "<group>"; };
+		E9347E201DF499C7007E5C01 /* NextGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextGame.swift; sourceTree = "<group>"; };
 		E9CB2A681DDDF9AA00B65FE6 /* SeahawksPlayerFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeahawksPlayerFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9CB2A6B1DDDF9AA00B65FE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E9CB2A6D1DDDF9AA00B65FE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9CB2A701DDDF9AA00B65FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9CB2A721DDDF9AA00B65FE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9CB2A751DDDF9AA00B65FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +50,8 @@
 		E9CB2A7C1DDDF9AA00B65FE6 /* SeahawksPlayerFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeahawksPlayerFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9CB2A801DDDF9AA00B65FE6 /* SeahawksPlayerFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeahawksPlayerFinderUITests.swift; sourceTree = "<group>"; };
 		E9CB2A821DDDF9AB00B65FE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9DFAEAA1DE7311300576FAE /* Vote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vote.swift; sourceTree = "<group>"; };
+		E9F6233A1DF0665800A68EC8 /* Downvote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downvote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9347E1D1DF4956F007E5C01 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +76,7 @@
 		E9CB2A5F1DDDF9AA00B65FE6 = {
 			isa = PBXGroup;
 			children = (
+				E9347E1C1DF4956F007E5C01 /* MapKit.framework */,
 				E9CB2A6A1DDDF9AA00B65FE6 /* SeahawksPlayerFinder */,
 				E9CB2A7F1DDDF9AA00B65FE6 /* SeahawksPlayerFinderUITests */,
 				E9CB2A691DDDF9AA00B65FE6 /* Products */,
@@ -77,12 +95,19 @@
 		E9CB2A6A1DDDF9AA00B65FE6 /* SeahawksPlayerFinder */ = {
 			isa = PBXGroup;
 			children = (
-				E9CB2A6B1DDDF9AA00B65FE6 /* AppDelegate.swift */,
-				E9CB2A6D1DDDF9AA00B65FE6 /* ViewController.swift */,
+				B4E01AE61E5A4AF700C06565 /* AppDelegate.swift */,
+				E9014DEE1DDE314700ACE601 /* Upvote.swift */,
+				E9F6233A1DF0665800A68EC8 /* Downvote.swift */,
 				E9CB2A6F1DDDF9AA00B65FE6 /* Main.storyboard */,
+				E9347E1E1DF497E0007E5C01 /* NextGameViewController.swift */,
+				E9347E201DF499C7007E5C01 /* NextGame.swift */,
+				E9014DE81DDE14F300ACE601 /* PlayerDetailsVC.swift */,
 				E9CB2A721DDDF9AA00B65FE6 /* Assets.xcassets */,
 				E9CB2A741DDDF9AA00B65FE6 /* LaunchScreen.storyboard */,
 				E9CB2A771DDDF9AA00B65FE6 /* Info.plist */,
+				E9014DEA1DDE15ED00ACE601 /* PlayerSearchVC.swift */,
+				E9347E0C1DF46895007E5C01 /* Player.swift */,
+				E9DFAEAA1DE7311300576FAE /* Vote.swift */,
 			);
 			path = SeahawksPlayerFinder;
 			sourceTree = "<group>";
@@ -141,19 +166,21 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Connor Bradley";
 				TargetAttributes = {
 					E9CB2A671DDDF9AA00B65FE6 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 					};
 					E9CB2A7B1DDDF9AA00B65FE6 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = E9CB2A671DDDF9AA00B65FE6;
 					};
 				};
 			};
-			buildConfigurationList = E9CB2A631DDDF9AA00B65FE6 /* Build configuration list for PBXProject "SeahawksPlayerFinder" */;
+			buildConfigurationList = E9CB2A631DDDF9AA00B65FE6 /* Build configuration list for PBXProject " SeahawksPlayerFinder" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -197,8 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9CB2A6E1DDDF9AA00B65FE6 /* ViewController.swift in Sources */,
-				E9CB2A6C1DDDF9AA00B65FE6 /* AppDelegate.swift in Sources */,
+				E9014DEF1DDE314700ACE601 /* Upvote.swift in Sources */,
+				E9014DEB1DDE15ED00ACE601 /* PlayerSearchVC.swift in Sources */,
+				E9347E211DF499C7007E5C01 /* NextGame.swift in Sources */,
+				B4E01AE71E5A4AF700C06565 /* AppDelegate.swift in Sources */,
+				E9DFAEAB1DE7311300576FAE /* Vote.swift in Sources */,
+				E9F6233B1DF0665800A68EC8 /* Downvote.swift in Sources */,
+				E9347E0D1DF46895007E5C01 /* Player.swift in Sources */,
+				E9014DE91DDE14F300ACE601 /* PlayerDetailsVC.swift in Sources */,
+				E9347E1F1DF497E0007E5C01 /* NextGameViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,8 +288,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -282,6 +318,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -300,8 +337,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -320,6 +359,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -333,6 +374,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BCU.SeahawksPlayerFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -344,6 +386,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BCU.SeahawksPlayerFinder;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -354,6 +397,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BCU.SeahawksPlayerFinderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SeahawksPlayerFinder;
 			};
 			name = Debug;
@@ -365,6 +409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BCU.SeahawksPlayerFinderUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = SeahawksPlayerFinder;
 			};
 			name = Release;
@@ -372,7 +417,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9CB2A631DDDF9AA00B65FE6 /* Build configuration list for PBXProject "SeahawksPlayerFinder" */ = {
+		E9CB2A631DDDF9AA00B65FE6 /* Build configuration list for PBXProject " SeahawksPlayerFinder" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9CB2A831DDDF9AB00B65FE6 /* Debug */,
@@ -388,6 +433,7 @@
 				E9CB2A871DDDF9AB00B65FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9CB2A881DDDF9AB00B65FE6 /* Build configuration list for PBXNativeTarget "SeahawksPlayerFinderUITests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +442,7 @@
 				E9CB2A8A1DDDF9AB00B65FE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SeahawksPlayerFinder.xcodeproj">
+      location = "self:/Users/s13169296/Downloads/SeahawksPlayerFinder/ SeahawksPlayerFinder.xcodeproj">
    </FileRef>
 </Workspace>
